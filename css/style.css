@@ -38,6 +38,21 @@ nav ul li a {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(255, 244, 221);
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.7s ease-in-out;
+    bottom: -2px;
+    background-color: white;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
 }
 
 #sec-first {
