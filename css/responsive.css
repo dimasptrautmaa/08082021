@@ -99,7 +99,7 @@
     @keyframes one {
         100% {
             rotate: 10deg;
-            transform: translateX(90px);
+            transform: translateX(110px);
         }
     }
     @keyframes three {
@@ -107,7 +107,7 @@
         }
         100% {
             rotate: -10deg;
-            transform: translateX(-90px);
+            transform: translateX(-110px);
         }
     }
 
