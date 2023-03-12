@@ -101,6 +101,18 @@ nav ul li a:hover::before {
     z-index: 1;
 }
 
+#button {
+    width: 30px;
+    position: absolute;
+    right: 14px;
+    bottom: 16px;
+    cursor: pointer;
+    opacity: 0;
+}
+#button.show {
+    opacity: 1;
+}
+
 #one {
     animation: one 1s ease-in-out forwards;
     z-index: 1;
@@ -120,8 +132,11 @@ nav ul li a:hover::before {
         rotate: 10deg;
         transform: translateX(210px);
     }
-    
 }
+#one.gray{
+    filter: grayscale() blur(2px);
+}
+
 
 #two {
     z-index: 3;
@@ -133,6 +148,7 @@ nav ul li a:hover::before {
     background-size: cover;
     animation: two 0.95s ease-in-out;
     transition: 0.5s;
+    cursor: pointer;
 }
 @keyframes two {
 
@@ -147,6 +163,17 @@ nav ul li a:hover::before {
     100%{
 
     }
+}
+#two.twoplus{
+    background-image: url(/img/vs10.jpg);
+    background-size: cover;
+    background-position: center;
+    scale: 1.2;
+    height: 265px;
+    transform: translateY(-10px);
+    cursor: unset;
+    border-radius: 10px;
+    box-shadow: 10px 10px 75px rgb(190, 190, 190);
 }
 
 #three {
@@ -166,6 +193,10 @@ nav ul li a:hover::before {
         transform: translateX(-210px);
     }
 }
+#three.gray{
+    filter: grayscale() blur(2px);
+}
+
 
 #wrapper-text {
     width: 100%;
@@ -180,7 +211,7 @@ nav ul li a:hover::before {
     font-size: 8em;
     z-index: 3;
     animation: h1 1.2s ease-in-out;
-    font-weight: bold;
+    font-weight: bolder;
 }
 @keyframes h1 {
     0%{
