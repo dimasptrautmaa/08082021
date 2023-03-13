@@ -94,10 +94,6 @@
 }
 
 @media (max-width: 375px){
-    #first{
-        height: 100%;
-    }
-
     nav ul {
         gap: 30px;
     }
@@ -127,5 +123,15 @@
 
     #h3-sec {
         font-size: 1.4em;
+    }
+    @keyframes h1 {
+        0%{
+            transform: translateY(-130px);
+            opacity: 0;
+        }
+    
+        30% {
+            opacity: 0;
+        }
     }
 }
