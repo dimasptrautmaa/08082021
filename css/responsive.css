@@ -94,6 +94,10 @@
 }
 
 @media (max-width: 375px){
+    #first{
+        height: 100%;
+    }
+
     nav ul {
         gap: 30px;
     }

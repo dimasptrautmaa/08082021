@@ -3,6 +3,7 @@ const one = document.getElementById('one')
 const three = document.getElementById('three')
 const button = document.getElementById('button')
 const audio = document.getElementById('audio')
+const enter = document.getElementById('enter')
 
 two.addEventListener('mouseenter', function(){
     two.classList.add('twoplus')
