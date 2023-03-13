@@ -120,6 +120,9 @@
     #two {
         transform: translateY(-20px) ;
     }
+    #two.twoplus{
+        scale: 2;
+    }
 
     #h3-sec {
         font-size: 1.4em;
