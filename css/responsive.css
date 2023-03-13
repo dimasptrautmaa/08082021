@@ -122,7 +122,7 @@
     }
     #two.twoplus{
         scale: 2;
-        transform: none;
+        transform: translateY(-20px);
     }
 
     #h3-sec {
