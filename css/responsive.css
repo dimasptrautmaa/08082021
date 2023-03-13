@@ -119,6 +119,7 @@
 
     #two {
         transform: translateY(-20px) ;
+        transition: 0.8s;
     }
     #two.twoplus{
         scale: 2;
