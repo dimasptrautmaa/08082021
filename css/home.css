@@ -6,7 +6,7 @@
 #first {
     width: 100%;
     height: 100vh;
-    background: url(/img/backgroundhome.jpg);
+    background-color: pink;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -20,6 +20,38 @@
     width: 100%;
     height: 100vh;
     background-color: pink;
+}
+
+#love {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 1000px;
+    animation: love 1.5s ease-in-out 3s forwards;
+    opacity: 0;
+}
+@keyframes love {
+    0%{}
+    100%{
+        opacity: 1;
+        top: 30px;
+    }
+}
+#love2 {
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    animation: love2 1.5s ease-in-out 3s forwards;
+    opacity: 0;
+}
+@keyframes love2 {
+    0% {
+        top: 70px;
+        left: 180px;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 #b1, #b2 {
@@ -65,7 +97,7 @@ h1::before {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: rgb(255, 190, 202);
+    background-color: pink;
     animation: le 1.7s ease-in-out 2s forwards;
 }
 @keyframes le {
@@ -86,7 +118,7 @@ span::before {
     position: absolute;
     right: -5px;
     top: 0;
-    background-color: rgb(255, 190, 202);
+    background-color: pink;
     animation: r 1.2s ease-in-out 1s forwards;
 }
 @keyframes r {
